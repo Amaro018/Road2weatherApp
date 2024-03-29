@@ -1,0 +1,86 @@
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	margin: 20px;
+}
+
+.cityInput {
+	width: 300px;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+button {
+	width: 300px;
+	padding: 10px 20px;
+	margin: 20px;
+	font-weight: bold;
+	background-color: hsla(142, 65%, 56%, 0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 2rem;
+	border-style: none;
+}
+
+button:hover {
+	background-color: hsl(180, 55%, 39%);
+}
+
+.card {
+	background: linear-gradient(
+		180deg,
+		hsla(240, 100%, 59%, 0.588),
+		hsla(39, 85%, 58%, 0.735)
+	);
+	padding: 40px;
+	box-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.594);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 1.5rem;
+	margin: 5px 0;
+}
+
+.cityDisplay,
+.tempDisplay {
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: hsla(0, 0%, 0%, 0.709);
+	margin-bottom: 20px;
+}
+
+.humidityDisplay {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.descDisplay {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.weatherEmoji {
+	font-size: 8rem;
+}
+
+.errorDisplay {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: hsla(0, 100%, 50%, 0.712);
+}
